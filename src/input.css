@@ -1,0 +1,17 @@
+@font-face {
+    font-family: flame-bold;
+    src: url(./assets/fonts/Flame-Bold.otf);
+}
+@font-face {
+    font-family: flame-regular;
+    src: url(./assets/fonts/Flame-Regular.otf);
+}
+
+@import "tailwindcss";
+
+@theme{
+    --font-flame-bold: flame-bold;
+}
+@theme{
+    --font-flame-regular: flame-regular;
+}
