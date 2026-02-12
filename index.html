@@ -6,22 +6,26 @@
     <title>Burger King</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body>
+<body class="bg-[#f8f1e7]">
     <!-- header started -->
     <header>
-        <nav>
-            <div class="fixed top-0 left-0 bg-[#ffffff] w-full flex justify-center gap-93 items-center py-3 border-b border-[#b4b4b48c]">
-                <div class="text-[20px] text-[#502314] font-flame-regular cursor-pointer">
-                <img src="./src/assets/icons/menu-bar.png" alt="Menu-bar Image">
-                </div>
-                <div class="text-[#502314] font-flame-bold uppercase tracking-wide text-3xl cursor-pointer">
-                    Burger King
-                </div>
-                <div class="flex items-center gap-5">
-                    <img src="./src/assets/icons/user.png" class="text-[#502314] cursor-pointer"></img>
-                    <button class="flex items-center justify-center gap-3 border border-[#9999998c] rounded-3xl py-2 px-4 text-[13px] font-bold text-[#0000008c]">
-                    <img src="./src/assets/icons/shopping-cart.png" class="text-[#000000b3]"></img> View Cart</button>
-                </div>
+        <nav class="flex justify-center border-b border-[#5757575e]">
+            <div class="flex w-296 my-3 px-4 justify-between items-center">
+                    <div>
+                        <img src="./src/assets/icons/menu-bar.png" class="w-4.5" alt="Menu-bar">
+                    </div>
+                    <div>
+                        <h1 class="text-[#502314] font-flame-regular text-[24px] font-bold uppercase pl-20">Burger King</h1>
+                    </div>
+                    <div class="flex gap-4 items-center">
+                        <div>
+                            <img src="./src/assets/icons/user.png" class="w-5" alt="user">
+                        </div>
+                        <div class="flex border border-[#5757575e] py-2 px-4 rounded-2xl items-center gap-2">
+                            <img src="./src/assets/icons/shopping-bag.png" class="text-[#5757575e] w-4 h-4" alt="Shopping Bag">
+                            <h3 class="font-flame-regular text-[#0000008C] text-[12px]">View Cart</h3>
+                        </div>
+                    </div>
             </div>
         </nav>
     </header>
